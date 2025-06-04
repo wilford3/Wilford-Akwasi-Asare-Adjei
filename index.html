@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wilford’s Trading Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding-top: 4rem;
+    }
+    footer {
+      padding: 2rem 0;
+      text-align: center;
+    }
+    .theme-toggle {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top border-bottom">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Wilford A. A. Adjei</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="#trading">Trading</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#analysis">Analysis</a></li>
+        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+      </ul>
+      <div class="form-check form-switch">
+        <input class="form-check-input theme-toggle" type="checkbox" id="darkModeSwitch">
+        <label class="form-check-label" for="darkModeSwitch">Dark Mode</label>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container">
+
+  <section id="resume" class="my-5">
+    <h2>Resume</h2>
+    <p>Finance graduate and market strategist focused on multi-asset research, portfolio optimization, and quantitative analysis.</p>
+    <a href="resume.pdf" class="btn btn-outline-primary" target="_blank">Download Resume</a>
+  </section>
+
+  <section id="trading" class="my-5">
+    <h2>Trading Strategies</h2>
+    <ul>
+      <li>Momentum-based Equity Models</li>
+      <li>Intraday FX Reversions</li>
+      <li>Volatility Exploits via Options</li>
+    </ul>
+  </section>
+
+  <section id="portfolio" class="my-5">
+    <h2>Portfolio Optimization</h2>
+    <p>Applying modern finance models and AI to structure risk-balanced, alpha-generating portfolios.</p>
+  </section>
+
+  <section id="analysis" class="my-5">
+    <h2>Market Analysis</h2>
+    <h5>📉 Technical Analysis</h5>
+    <ul>
+      <li>Chart patterns and indicators (MACD, RSI, etc.)</li>
+      <li>Volume and liquidity analysis</li>
+      <li>Support/Resistance zones</li>
+    </ul>
+    <h5>📈 Fundamental Analysis</h5>
+    <ul>
+      <li>Company earnings and valuation metrics</li>
+      <li>Macro data (GDP, CPI, interest rates)</li>
+      <li>Sector-level screening and forecasting</li>
+    </ul>
+  </section>
+
+  <section id="blog" class="my-5">
+    <h2>Blog Highlights</h2>
+    <article class="mb-3">
+      <h5>📊 Reading Between the Candles</h5>
+      <p>How technical patterns reveal trader behavior under pressure.</p>
+      <a href="#">Read more →</a>
+    </article>
+    <article>
+      <h5>🤖 When Code Meets Charts</h5>
+      <p>Marrying traditional technicals with Python-powered edge detection.</p>
+      <a href="#">Read more →</a>
+    </article>
+  </section>
+
+  <section id="projects" class="my-5">
+    <h2>Projects</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Equity Momentum Strategy</h5>
+            <p class="card-text">A Python-based model to detect momentum in U.S. large-cap stocks using RSI, price action, and volume data.</p>
+            <a href="https://github.com/your-username/equity-momentum-strategy" class="btn btn-sm btn-outline-primary" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Optimization Tool</h5>
+            <p class="card-text">Efficient frontier visualization and Sharpe maximization using PyPortfolioOpt and real market data.</p>
+            <a href="https://github.com/your-username/portfolio-optimizer" class="btn btn-sm btn-outline-primary" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">TradingView Signal Dashboard</h5>
+            <p class="card-text">Web-based dashboard pulling TradingView alerts for real-time strategy performance monitoring.</p>
+            <a href="https://github.com/your-username/tradingview-dashboard" class="btn btn-sm btn-outline-primary" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Fundamental Screener</h5>
+            <p class="card-text">Scrapes earnings, valuation metrics, and macro indicators to screen fundamentally strong stocks.</p>
+            <a href="https://github.com/your-username/fundamental-screener" class="btn btn-sm btn-outline-primary" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</div>
+
+<!-- Footer -->
+<footer class="bg-body-secondary">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Wilford A. A. Adjei · Built with Bootstrap + GitHub Pages</p>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Dark mode toggle
+  const toggle = document.querySelector('.theme-toggle');
+  toggle.addEventListener('change', () => {
+    const current = document.documentElement.getAttribute('data-bs-theme');
+    document.documentElement.setAttribute('data-bs-theme', current === 'light' ? 'dark' : 'light');
+  });
+</script>
+
+</body>
+</html>
